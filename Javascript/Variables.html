@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Variables</title>
+    </head>
+  <body>
+   <button onclick="
+    console.log(`Quntity: ${ballprice}
+    `);
+    ">Show Quality</button>
+
+   <button onclick="
+    ballprice=ballprice + 1;
+    console.log(`Quantity: ${ballprice}`)
+   ">Add Cart</button>
+
+   <button onclick="
+   ballprice=ballprice + 2;
+   console.log(`Quantity: ${ballprice}`)
+   ">>+2</button>  
+
+   <button onclick="
+   ballprice=ballprice + 3;
+   console.log(`Quantity :${ballprice}`)
+   ">+3</button>
+
+   <button onclick="
+   ballprice=ballprice + 5;
+   console.log(`Quantity: ${ballprice}`)
+   ">+5</button>
+
+   <button onclick="
+   ballprice=0;
+    console.log('cart was recet.')
+   console.log(`Quantity: ${ballprice}`)
+   ">recet</button>
+    <script>
+    let ballprice = 0;
+   
+    </script>
+  </body>  
+</html>
